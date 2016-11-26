@@ -16,8 +16,9 @@ Below are simple steps to get started. The set up can be done with just typescri
 ## Compiling typescript files:
     1. Add tsconfig.json file - configuration file for typescript
     2. Add gulp task to transpile typescript to javascript as below:
-        a. `npm install --save-dev typescript gulp gulp-typescript`
-        b. Add gulpfile.js and gulp taks to compile ts files. Watch task can be added to automatically compile ts files when changed
+        a. If gulp is not installed - install using `npm install -g gulp-cli`
+        b. `npm install --save-dev typescript gulp gulp-typescript`
+        c. Add gulpfile.js and gulp taks to compile ts files. Watch task can be added to automatically compile ts files when changed
         
 ## Setting up Jasmine for unit test cases:
     1. `npm install --save-dev jasmine-core`
